@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/bharathi-285/hello-spring'
+                git 'https://github.com/bharathi-28/hello-spring'
                 sh "mvn package"
             }
             post {
